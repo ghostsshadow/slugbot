@@ -23,6 +23,6 @@ mongodb+srv://<user>:<password>@<yourProject>.gn4yv.mongodb.net/<dbname>?retryWr
 
 5. run "node bot.js" in a command promt and *don't* close it
 
-## Or I get ab mod account (create a new one) and have it all set up
+## Or I get a mod account (create a new one) and have it all set up
 
 # I recommend to create a new twitch account and use this for the bot
