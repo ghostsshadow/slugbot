@@ -77,7 +77,7 @@ async function checkDB(username) {
     }
 
     // Check for existance
-    if (!await col.findOne(slugDocument) == null) {
+    if (await col.findOne(slugDocument) != null) {
       return true;
     } else return false;
 
