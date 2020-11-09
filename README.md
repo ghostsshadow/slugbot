@@ -25,4 +25,13 @@ mongodb+srv://<user>:<password>@<yourProject>.gn4yv.mongodb.net/<dbname>?retryWr
 
 ## Or I get a mod account (create a new one) and have it all set up
 
+# How to use
+!age <your age>
+  - !age 18
+    - You're a sliggy1SLUG.
+  - !age 29
+    - You're a sliggy1BOOMER.
+
+On Sub tells if subscriber is boomer or slug
+
 # I recommend to create a new twitch account and use this for the bot
