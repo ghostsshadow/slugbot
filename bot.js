@@ -148,9 +148,9 @@ function isBoomer(age) {
 client.on("subscription", (channel, username, method, message, userstate) => {
   // Check if BoomerSlug
   if (checkDB(username)) {
-    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
-  } else {
     client.say(channel, `Give me the sliggy1SLUG sliggy1SLUG sliggy1SLUG for ${username} in the chat!`);
+  } else {
+    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
   }
   console.log(`* Executed Subscription Event`);
 });
@@ -159,9 +159,9 @@ client.on("subscription", (channel, username, method, message, userstate) => {
 client.on("resub", (channel, username, months, message, userstate, methods) => {
   // Check if BoomerSlug
   if (checkDB(username)) {
-    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
-  } else {
     client.say(channel, `Give me the sliggy1SLUG sliggy1SLUG sliggy1SLUG for ${username} in the chat!`);
+  } else {
+    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
   }
   let cumulativeMonths = ~~userstate["msg-param-cumulative-months"];
   console.log(`* Executed Resubscribtion Event`);
@@ -171,9 +171,9 @@ client.on("resub", (channel, username, months, message, userstate, methods) => {
 client.on("subgift", (channel, username, streakMonths, recipient, methods, userstate) => {
   // Check if BoomerSlug
   if (checkDB(recipient)) {
-    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${recipient} in the chat!`);
-  } else {
     client.say(channel, `Give me the sliggy1SLUG sliggy1SLUG sliggy1SLUG for ${recipient} in the chat!`);
+  } else {
+    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${recipient} in the chat!`);
   }
   let senderCount = ~~userstate["msg-param-sender-count"];
   console.log(`* Executed Subgift Event`);
@@ -182,9 +182,9 @@ client.on("subgift", (channel, username, streakMonths, recipient, methods, users
 // Called on myterysubgift
 client.on("submysterygift", (channel, username, numbOfSubs, methods, userstate) => {
   if (checkDB(username)) {
-    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
-  } else {
     client.say(channel, `Give me the sliggy1SLUG sliggy1SLUG sliggy1SLUG for ${username} in the chat!`);
+  } else {
+    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${username} in the chat!`);
   }
   let senderCount = ~~userstate["msg-param-sender-count"];
   console.log(`* Executed Mysterysubgift Event`);
@@ -193,8 +193,8 @@ client.on("submysterygift", (channel, username, numbOfSubs, methods, userstate) 
 // Called on Raid
 client.on("raided", (channel, username, viewers) => {
   if (checkDB(username)) {
-    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${viewers} in the chat!`);
-  } else {
     client.say(channel, `Give me the sliggy1SLUG sliggy1SLUG sliggy1SLUG for ${viewers} in the chat!`);
+  } else {
+    client.say(channel, `Give me the sliggy1BOOMER sliggy1BOOMER sliggy1BOOMER for ${viewers} in the chat!`);
   }
 });
